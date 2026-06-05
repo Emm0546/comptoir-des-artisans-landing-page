@@ -142,3 +142,15 @@
   margin: 0;
   line-height: 1.5;
 }
+
+.footer {
+  background-color: #1a1512;
+  color: #cccccc;
+  padding: 32px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
