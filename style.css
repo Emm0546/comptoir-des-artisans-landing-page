@@ -1,0 +1,144 @@
+.hero-container {
+  background-color: #1a1512;
+  padding: 24px 48px 64px 48px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fcfbfb;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #e5e5e5;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.lang-switch {
+  border: 1px solid #d4af37;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #d4af37 !important;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-left,
+.hero-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-left h1 {
+  font-size: 42px;
+  font-weight: 800;
+  color: #fcfbfb;
+  margin: 0 0 16px 0;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  line-height: 1.2;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #cccccc;
+  line-height: 1.6;
+  margin: 0 0 32px 0;
+}
+
+.hero-btn {
+  background-color: #d4af37;
+  color: #1a1512;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.image-placeholder {
+  background-color: #332a24;
+  color: #d4af37;
+  height: 300px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 600;
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.info-container {
+  padding: 64px 24px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.info-container h2 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #1a1512;
+  margin: 0 0 48px 0;
+}
+
+.grid-pond {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.info-card {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-box {
+  width: 160px;
+  height: 160px;
+  border: 3px solid #d4af37;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.info-card p {
+  font-size: 15px;
+  color: #4a4a4a;
+  margin: 0;
+  line-height: 1.5;
+}
